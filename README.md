@@ -1,4 +1,5 @@
 # Cavifree
+![Showcase](screenshots/showcase.gif)
 
 ## Overview
 Cavifree is a screen space post-processing effect for Unity that mimics the "cavity" viewport effect found in Blender. It provides a stylized look to your scene by highlighting the edges and crevices of objects, enhancing their depth and making them look more detailed.
