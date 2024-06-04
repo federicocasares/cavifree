@@ -35,6 +35,9 @@ Setup instructions are provided in the URP and HDRP folders in their respective 
 - **Edge Intensity Multiplier** (default: 0.6): Multiplies the intensity of edges. The higher it is, the more edges will be fully highlighted, regardless of their angle.
 - **Sharpness** (default: 0.9): Affects the importance of the current pixel compared to surrounding pixels being sampled. Has no effect when the radius is 0.
 
+## Troubleshooting
+It's entirely possible the link between the custom function contained in the HLSL file and the shader graph is broken upon importing. If so, you can just open the shader graph, find the `Custom Function` node and populate the `Source` field with the included HLSL file `GetAverageCurvature`.
+
 ## Example
 
 ### OFF
